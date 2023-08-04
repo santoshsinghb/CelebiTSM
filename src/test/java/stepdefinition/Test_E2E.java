@@ -124,9 +124,9 @@ public class Test_E2E {
 
 //E2E----------------------		
 		E2E.LanSelectDropDown.click();
-		Thread.sleep(500);
+		Thread.sleep(5000);
 		E2E.EnglishLang.click();
-		Thread.sleep(500);
+		Thread.sleep(5000);
 		Entity = entity;
 		TestDataReader.ReadLoginDetails(Entity);
 		Thread.sleep(500);
@@ -136,7 +136,7 @@ public class Test_E2E {
 		Thread.sleep(20000);
 //		E2E.CaptchaTextBox.sendKeys(E2E.CaptchaText);
 //		Thread.sleep(1000);
-//		loginScreen.Login(Entity,Username, Password);
+		loginScreen.Login(Entity,Username, Password);
 		 //these below line added
 		//  driver.navigate().refresh();
 		//   loginScreen.Login(Entity, Username, Password);
@@ -155,31 +155,31 @@ public class Test_E2E {
 	
 	@Then("User is able to nevigate dock Configuration screen screen \\/tab should be displayed in GHA login and add dock")
 	public void user_is_able_to_nevigate_dock_configuration_screen_screen_tab_should_be_displayed_in_gha_login() throws InterruptedException {
-//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.DockCongigurationTab);
-		//		Thread.sleep(500);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.AddDockBtn);
-		//		Thread.sleep(500);
-		//		E2E.DockNameTextBox.sendKeys("B");
-		//		Thread.sleep(2000);
-		//		E2E.NoDockTextBox.sendKeys("2");
-		//		Thread.sleep(2000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.Submit);
-		//		Thread.sleep(4000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.Okbtn);
-		//		Thread.sleep(2000);
-		//		driver.navigate().refresh();
-		//		Thread.sleep(2000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.SlotCongigurationTab);
-		//		Thread.sleep(2000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.MayAssignDocks);
-		//		Thread.sleep(6000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.A1CheckBox);
-		//		Thread.sleep(6000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.A2CheckBox);
-		//		Thread.sleep(2000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.SubmitBtn);
-		//		Thread.sleep(2000);
-		//		WebDriverMethod.JavascriptExecutorClick( driver, E2E.AssignnedConfirmationmsgOKbtn);
+		WebDriverMethod.JavascriptExecutorClick( driver, E2E.DockCongigurationTab);
+				Thread.sleep(500);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.AddDockBtn);
+				Thread.sleep(500);
+				E2E.DockNameTextBox.sendKeys("B");
+				Thread.sleep(2000);
+				E2E.NoDockTextBox.sendKeys("2");
+				Thread.sleep(2000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.Submit);
+				Thread.sleep(4000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.Okbtn);
+				Thread.sleep(2000);
+				driver.navigate().refresh();
+				Thread.sleep(2000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.SlotCongigurationTab);
+				Thread.sleep(2000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.MayAssignDocks);
+				Thread.sleep(6000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.A1CheckBox);
+				Thread.sleep(6000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.A2CheckBox);
+				Thread.sleep(2000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.SubmitBtn);
+				Thread.sleep(2000);
+				WebDriverMethod.JavascriptExecutorClick( driver, E2E.AssignnedConfirmationmsgOKbtn);
 
 		
 	}
@@ -278,8 +278,8 @@ public class Test_E2E {
 		Thread.sleep(3000);
 		E2E.Book_TIME_Slot_Save.click();
 		Thread.sleep(36000);
-	//	E2E.Book_TIME_Slot_ok.click();
-	//	Thread.sleep(26000);
+		E2E.Book_TIME_Slot_ok.click();
+		Thread.sleep(26000);
 		driver.switchTo().newWindow(WindowType.TAB);
 		Thread.sleep(3000);
 		driver.get("https://galaxydemo.kalelogistics.in/GalaxyV3/Login.aspx");
@@ -353,17 +353,17 @@ public class Test_E2E {
         Thread.sleep(3000);
         
         
-    //  E2E.Galaxy_VCTacceptance_VCTno.sendKeys("T2023060100007");
-    //   Thread.sleep(3000);
-	//	E2E.Galaxy_VCTacceptance_Search.click();
-	//	Thread.sleep(3000);
-	//	E2E.Galaxy_VCTacceptance_Date.sendKeys("14/06/2023");
-	//	Thread.sleep(12000);
-//		E2E.Galaxy_VCTacceptance_Date19.click();
-//		Thread.sleep(3000);
-//		E2E.Galaxy_VCTacceptance_Hour.sendKeys("1800");
-//		Thread.sleep(18000);
-/*		E2E.Galaxy_VCTacceptance_GateIn.click();
+      E2E.Galaxy_VCTacceptance_VCTno.sendKeys("T2023060100007");
+       Thread.sleep(3000);
+		E2E.Galaxy_VCTacceptance_Search.click();
+		Thread.sleep(3000);
+		E2E.Galaxy_VCTacceptance_Date.sendKeys("14/06/2023");
+		Thread.sleep(12000);
+		E2E.Galaxy_VCTacceptance_Date19.click();
+		Thread.sleep(3000);
+		E2E.Galaxy_VCTacceptance_Hour.sendKeys("1800");
+		Thread.sleep(18000);
+		E2E.Galaxy_VCTacceptance_GateIn.click();
 		Thread.sleep(26000);
 //		E2E.Galaxy_VCTacceptance_DoorSelect.click();
 //		Thread.sleep(6000);
@@ -476,22 +476,8 @@ public class Test_E2E {
 		E2E.NOG.sendKeys("high");
 		Thread.sleep(3000);
 		E2E.CreateAWB_SAVE.click();
-	*/	Thread.sleep(5000);
-		
-		
-		
-		
-		
-		
-		
-		
+		Thread.sleep(5000);
 	
-		
-		
-		
-		
-		
-		
 }
 
 	
