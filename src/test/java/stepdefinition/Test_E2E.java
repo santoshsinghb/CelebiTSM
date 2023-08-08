@@ -236,7 +236,7 @@ public class Test_E2E {
 //public void i_get_login_with_gs_auser_given_in_sheet_of_excel_data(String entity, String sheetName) throws Throwable {
 	@When("I  get login with GSAuser given in sheet of excel data")
 	public void i_get_login_with_gs_auser_given_in_sheet_of_excel_data()throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+	    // Write code here that turns the phrase above into concrete actions 
 	//    throw new io.cucumber.java.PendingException();
         E2E.LanSelectDropDown.click();
 		Thread.sleep(5000);
@@ -245,7 +245,7 @@ public class Test_E2E {
 //		Entity = entity;
 		TestDataReader.ReadLoginDetails(Entity);
 		Thread.sleep(500);
-		System.out.println("usr= "+Username);
+		System.out.println("usr= "+Username); 
 		System.out.println("pwd= "+Password);
 //   loginScreen.isLoginScreenDisplayed();
 		Thread.sleep(20000);
@@ -260,7 +260,7 @@ public class Test_E2E {
 		Thread.sleep(5000);
 		
 		E2E.BookSlot_Back.click();
-		Thread.sleep(10000);
+		Thread.sleep(18000);
 		E2E.Create_AWB.click();
 		Thread.sleep(5000);
 		E2E.MAWB_firstnumber.sendKeys("125");

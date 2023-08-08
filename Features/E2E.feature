@@ -21,7 +21,7 @@ Feature: Celebi_TSM
 
  
 
-  Background: Launch DnataStock Application and Login into application
+  Background: Launch  Celebi Application and Login into application
     When I login with "Acs GHA" GSAuser given in "Login" sheet of excel data
 
 
