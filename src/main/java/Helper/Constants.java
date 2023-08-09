@@ -14,7 +14,7 @@ public class Constants {
 	public static final String LoginSheet = "Login";
 	public static final String MasterDataSheet="Type";
 	public static final String ChromeDriverPath = "Drivers/chromedriver.exe";
-	public static final String TestDataFile = "TestData/DnataStock_TestData.xlsx";
+	public static final String TestDataFile = "TestData/Celebi_TSM_TestData.xlsx";
 	public static final String URL="http://172.2.0.68/ACS_IST_NEW/UI/UpliftLogin.aspx";
 	
 	
