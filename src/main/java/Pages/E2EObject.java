@@ -153,7 +153,7 @@ public class E2EObject extends BasePage  {
 	@FindBy(xpath="/html/body/form/div[4]/div[3]/div[1]/ul/li[3]/a")
 	public WebElement Galaxy_VCTacceptance;
 	
-	@FindBy(xpath="//*[@id='ctl00_Toolbar2_btnSearchNew']")
+	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[1]/table/tbody/tr/td[2]/input")
 	public WebElement Galaxy_VCTacceptance_Search;
 	
 	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[2]/table/tbody/tr/td[1]/table/tbody/tr/td[1]/input")
@@ -228,7 +228,7 @@ public class E2EObject extends BasePage  {
 	@FindBy(xpath="/html/body/form/div[4]/div[3]/div/div[2]/div[5]/div[1]/table/tbody/tr[1]/td[2]/img")
 	public WebElement E2E_slotUsageReport_Date;
 	
-	@FindBy(xpath="/html/body/div[1]/table/tbody/tr[1]/td[7]/a")
+	@FindBy(xpath="/html/body/div[1]/table/tbody/tr[2]/td[4]/a")
 	public WebElement E2E_slotUsageReport_Date1;
 	
 	@FindBy(xpath="/html/body/form/div[4]/div[3]/div/div[2]/div[5]/div[1]/table/tbody/tr[1]/td[4]/img")
@@ -302,6 +302,77 @@ public class E2EObject extends BasePage  {
 	
 	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[2]/div/div/table/tbody/tr[2]/td[2]/div/div[2]/div/table[3]/tbody/tr[1]/td[3]/input[1]")
 	public WebElement E2E_Billing_generatInvoice_PayNproceed;
+	
+	@FindBy(xpath="/html/body/form/table/tbody/tr/td[2]/div/div[2]/table/tbody/tr/td/div[2]/div[1]/div[2]/input[1]")
+	public WebElement E2E_Username;
+	
+	@FindBy(xpath="/html/body/form/table/tbody/tr/td[2]/div/div[2]/table/tbody/tr/td/div[2]/div[1]/div[3]/input[1]")
+	public WebElement E2E_password;
+	
+	@FindBy(xpath="/html/body/form/table/tbody/tr/td[2]/div/div[2]/table/tbody/tr/td/div[2]/div[1]/div[4]/a/span/input")
+	public WebElement E2E_Login;
+	
+//	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/table/tbody/tr[2]/td[1]/fieldset[1]/table/tbody/tr[1]/td/div/div/table/tbody/tr[3]/td[1]/input[1]")
+//	public WebElement E2E_VCT_SelectCargo;
+	
+	@FindBy(xpath="/html/body/form/div[4]/div[3]/div/div[2]/div[5]/div[1]/table/tbody/tr[1]/td[6]/select")
+	public WebElement E2E_SelectSlot;
+	
+	@FindBy(xpath="(//*[text()='Both'])[1]")
+	public WebElement E2E_SelectSlot_Both;
+	
+	@FindBy(xpath="(//*[text()='Both'])[2]")
+	public WebElement E2E_SelectSlot_Both1;
+	
+	@FindBy(xpath="/html/body/form/div[4]/div[3]/div/div[2]/div[5]/div[6]/div/div/div[2]/div/div[1]/div/div/table/tbody/tr[4]/td[1]/span/input")
+	public WebElement E2E_SelectSlot_AGILITY_LOJISTIK_AS;
+	
+	@FindBy(xpath="/html/body/form/div[4]/div[3]/div/div[2]/div[5]/div[6]/div/div/div[2]/div/div[2]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/button")
+	public WebElement E2E_SelectSlot_AGILITY_LOJISTIK_AS_ok;
+	
+	@FindBy(xpath="/html/body/form/div[4]/div[3]/div/div[2]/div[4]/div/div/div[3]")
+	public WebElement E2E_SelectSlot_Next;
+	
+	@FindBy(xpath="/html/body/form/div[4]/div[3]/div/div[2]/div[5]/div[4]/div/div/div[3]/input[1]")
+	public WebElement E2E_CreateAWB_ok;
+	
+	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[4]/table/tbody/tr/td[1]/table/tbody/tr/td[1]/input")
+	public WebElement E2E_VCT_DateDockout;
+	
+	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[4]/table/tbody/tr/td[2]/div/input")
+	public WebElement E2E_VCT_TimeDockout;
+	
+	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[5]/table/tbody/tr/td[1]/table/tbody/tr/td[1]/input")
+	public WebElement E2E_VCT_DateGateiout;
+	
+	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[5]/table/tbody/tr/td[2]/div/input")
+	public WebElement E2E_VCT_TimeGateout;
+	
+	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[4]/table/tbody/tr/td[3]/input")
+	public WebElement E2E_VCT_DockOut;
+	
+	@FindBy(xpath="/html/body/form/div[3]/div[3]/div[1]/div/fieldset/fieldset[5]/table/tbody/tr/td[3]/input")
+	public WebElement E2E_VCT_Gateout;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
