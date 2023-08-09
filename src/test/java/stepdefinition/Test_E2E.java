@@ -196,7 +196,7 @@ public class Test_E2E {
 
 		E2E.MAWB_firstnumber.sendKeys("125");
 		Thread.sleep(30000);
-		E2E.MAWB_Secondnumber.sendKeys("74549414");
+		E2E.MAWB_Secondnumber.sendKeys("74549451");
 		Thread.sleep(4000);
 		E2E.AirlneCode.sendKeys("");
 		Thread.sleep(4000);
@@ -213,7 +213,7 @@ public class Test_E2E {
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		System.out.println("click");Thread.sleep(6000);
 		Thread.sleep(3000);
-		E2E.Galaxy_VCTacceptance_NOP.sendKeys("12");
+		E2E.Galaxy_VCTacceptance_NOP.sendKeys("10");
 		Thread.sleep(3000);
 		E2E.Gr_wt.sendKeys("50");
 		Thread.sleep(3000);
@@ -516,7 +516,7 @@ public class Test_E2E {
         
         //
         
-/*      E2E.Galaxy_VCTacceptance_VCTno.sendKeys("T2023080300002");
+     E2E.Galaxy_VCTacceptance_VCTno.sendKeys("T2023080300001");
        Thread.sleep(30000);
 		E2E.Galaxy_VCTacceptance_Search.click();
 		Thread.sleep(16000);
